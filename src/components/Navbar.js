@@ -5,44 +5,30 @@ import logo from '../assets/logo.png';
 import React from 'react';
 import Tab from 'react-bootstrap/Tab'; // Import Tab component
 
-function CustomNavbar({ onSelectTab }) {
-  
-  return (
-    <Navbar variant="tabs" className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              src={logo}
-              height="40"
-              className="d-inline-block align-top"
-              alt="jain.a() logo"
-            />
-          </Navbar.Brand>
+function CustomNavbar({setSelectedTab}) {
+  return(
+    <Nav fill variant="tabs">
+     
+        <Nav.Item onClick={() => setSelectedTab('home')}> <Nav.Link href="/home"><img
+            src={logo}
+            height="40"
+            className="d-inline-block align-top"
+            alt="jain.a() logo" /></Nav.Link> </Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('education')}> <Nav.Link eventKey="/education">Education</Nav.Link> </Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('experience')}> <Nav.Link eventKey="/experience">Experience</Nav.Link> </Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('skills')}> <Nav.Link eventKey="/skills">Skills</Nav.Link></Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('certifications')}> <Nav.Link eventKey="/certifications">Certifications</Nav.Link></Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('projects')}> <Nav.Link eventKey="/projects">Projects</Nav.Link></Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('recognition')}> <Nav.Link eventKey="/recognition">Recognition</Nav.Link> </Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('volunteer')}> <Nav.Link eventKey="/volunteer">Volunteer</Nav.Link> </Nav.Item>
+        <Nav.Item onClick={() => setSelectedTab('contact')}> <Nav.Link eventKey="/contact">Contact</Nav.Link> </Nav.Item>
+        
 
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-          <Tab.Container id="navbar-tabs" defaultActiveKey="#home">
-          <Nav className="mr-auto" onSelect={onSelectTab}>
-          {/* <Nav className="justify-content-center"> */}
-            <Nav.Link href="#home">Home</Nav.Link> 
-            <Nav.Link href="#education">Education</Nav.Link>
-            <Nav.Link href="#experience">Experience</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#certifications">Certifications</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#recognition">Recognition</Nav.Link>
-            <Nav.Link href="#volunteer">Volunteer</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link href="#"></Nav.Link>
-            
-          </Nav>
-          </Tab.Container>
-        </Navbar.Collapse> 
-        </Container>
-      </Navbar>
-
-    
+     
+     
+      </Nav>
   );
-}
+  }
 
 export default CustomNavbar;
+

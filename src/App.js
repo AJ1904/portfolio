@@ -12,29 +12,61 @@ import Contact from './components/Contact';
 import CustomNavbar from './components/Navbar'; // Import Navbar
 import { useState } from 'react';
 
+// import { NavigationContainer } from '@react-navigation/native';
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from 'react';
+
 function App() {
-  const [activeTab, setActiveTab] = useState('#home'); // State to manage active tab
+  // const [activeTab, setActiveTab] = useState('#home'); // State to manage active tab
 
-  const handleTabSelect = (selectedTab) => {
-    setActiveTab(selectedTab);
-  };
+  // const handleTabSelect = (selectedTab) => {
+  //   setActiveTab(selectedTab);
+  // };
+  // const Tab = createBottomTabNavigator();
 
+  const TABS = {
+    'home': <Home />,
+    'projects': <Projects />,
+    'contact': <Contact />,
+    'education': <Education />,
+    'experience': <Experience />,
+    'skills': <Skills />,
+    'certifications': <Certifications />,
+    'volunteer': <Volunteer />,
+    'recognition': <Recognition />
+  }
+
+  const [selectedTab, setSelectedTab] = useState('home');
+
+  return(
+    <div>
+      <CustomNavbar 
+        setSelectedTab={setSelectedTab}
+      />
+      {/* this is the main content of the page */}
+      {TABS[selectedTab]}
+    </div>
+  )
+
+  
   return (
     <div className="App">
-       <CustomNavbar onSelectTab={handleTabSelect} activeTab={activeTab} />
-       {activeTab === '#home' && <Home />}
-       {activeTab === '#education' && <Education />}
-       {activeTab === '#experience' && <Experience />}
-       {activeTab === '#skills' && <Skills />}
-       {activeTab === '#certifications' && <Certifications />}
-       {activeTab === '#volunteer' && <Volunteer />}
-       {activeTab === '#recognition' && <Recognition />}
-       {activeTab === '#projects' && <Projects />}
-       {activeTab === '#contact' && <Contact />}
-  
+      
+    {/* <CustomNavbar /> */}
+    {/* <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route index element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<Contact />} />
+        </Route>
+      </Routes>
+    </BrowserRouter> */}
     </div>
-    
   );
-}
+
+  }
 
 export default App;

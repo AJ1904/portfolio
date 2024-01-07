@@ -10,9 +10,7 @@ const Home = () => {
     <>
     <div className="homecontainer">
       <h1>Hey! :D</h1>
-      <h2>
-        I am <span className="homename">Ayushri Jain</span>.
-      </h2>
+      <h2>I am <span className="homename">Ayushri Jain</span>.</h2>
 
       <div className="homecontent">
         <div className="homeimage-container">
