@@ -11,20 +11,10 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import CustomNavbar from './components/Navbar'; // Import Navbar
 import { useState } from 'react';
-
-// import { NavigationContainer } from '@react-navigation/native';
-// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react';
 
 function App() {
-  // const [activeTab, setActiveTab] = useState('#home'); // State to manage active tab
-
-  // const handleTabSelect = (selectedTab) => {
-  //   setActiveTab(selectedTab);
-  // };
-  // const Tab = createBottomTabNavigator();
-
+  
   const TABS = {
     'home': <Home />,
     'projects': <Projects />,
@@ -48,24 +38,6 @@ function App() {
       {TABS[selectedTab]}
     </div>
   )
-
-  
-  return (
-    <div className="App">
-      
-    {/* <CustomNavbar /> */}
-    {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}>
-          <Route index element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<Contact />} />
-        </Route>
-      </Routes>
-    </BrowserRouter> */}
-    </div>
-  );
 
   }
 
