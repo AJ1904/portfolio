@@ -51,7 +51,7 @@ const Projects = () => {
     <div className="project">
         <div className="education">
             <div className="education-logo">
-                <a href="" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
+                <a href="https://github.com/AJ1904/machine-translation-artificial-language" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
             </div>
             <div className="education-text">
                 <h3>Powerful deep learning model for machine translation</h3>
@@ -124,7 +124,7 @@ const Projects = () => {
     <div className="project">
         <div className="education">
             <div className="education-logo">
-                <a href="" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
+                <a href="https://www.linkedin.com/in/ayushrijain/#:~:text=to%20Detail%20%C2%B7%20Collaboration-,Machine%20Learning%20Engineer,-Machine%20Learning%20Engineer" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
             </div>
             <div className="education-text">
                 <h3>Autonomous Vehicle Navigation: using Carla neural networks & AI</h3>
@@ -161,7 +161,7 @@ const Projects = () => {
     <div className="project">
         <div className="education">
             <div className="education-logo">
-                <a href="#" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
+                <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=and%20cucumber%20tests-,Major%20Project%20%3A%20%27Enhancing%20the%20Capability%20of%20Analytical%20Hierarchy%20Process%20using%20Fuzzy%20Logic%20embedded%20with%20Neural%20Networks%27,-Major%20Project%20%3A%20%27Enhancing" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
             </div>
             <div className="education-text">
                 <h3>Enhancing the Capability of Analytical Hierarchy Process using Fuzzy Logic embedded with Neural Networks'</h3>
@@ -176,7 +176,7 @@ const Projects = () => {
     <div className="project">
         <div className="education">
             <div className="education-logo">
-                <a href="#" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
+                <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=Swachha%20Bharat%20Abhiyan%E2%80%9D.-,Minor%20Project%20%3A%20%27Text%20to%20Emoji%27,-Minor%20Project%20%3A%20%27Text" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
             </div>
             <div className="education-text">
                 <h3>Text to Emoji</h3>
@@ -197,7 +197,7 @@ const Projects = () => {
     <div className="project">
         <div className="education">
             <div className="education-logo">
-                <a href="#" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt="TAMU Logo"></img></a>
+                <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=for%20training%20purpose.-,Software%20Engineering%20Project%20%3A%20%27Rotaract%20App%27,-Software%20Engineering%20Project" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt="TAMU Logo"></img></a>
             </div>
             <div className="education-text">
                 <h3>Rotaract App</h3>

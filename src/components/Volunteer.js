@@ -33,7 +33,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank" rel="noreferrer"><img src={maroonbaselogo} alt="maroonbase"></img></a>
+        <a href="https://launch.tamu.edu/academic-excellence/maroonbase" target="_blank" rel="noreferrer"><img src={maroonbaselogo} alt="maroonbase"></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -53,7 +53,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank" rel="noreferrer"><img src={manitlogo} alt=""></img></a>
+        <a href="https://www.manit.ac.in/training-placement-and-student-welfare-cell" target="_blank" rel="noreferrer"><img src={manitlogo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -73,7 +73,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt=""></img></a>
+        <a href="https://www.manit.ac.in/content/rotaract-club" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -92,7 +92,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt=""></img></a>
+        <a href="https://www.manit.ac.in/content/rotaract-club" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -111,7 +111,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank" rel="noreferrer"><img src={roobaroologo} alt=""></img></a>
+        <a href="https://www.manit.ac.in/content/roobaroo" target="_blank" rel="noreferrer"><img src={roobaroologo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">

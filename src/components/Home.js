@@ -26,10 +26,10 @@ const Home = () => {
     </div>
 
     <div class="social-icons">
-        <a href="https://www.linkedin.com/in/ayushrijain" target="_blank" rel="noreferrer" class="social-icon"><i><img src={linkedinlogo}></img></i></a>
-        <a href="https://github.com/AJ1904" target="_blank" rel="noreferrer" class="social-icon"><img src={githublogo}></img></a>
-        <a href="mailto:ayushrijain19@gmail.com" target="_blank" rel="noreferrer" class="social-icon"><img src={gmaillogo}></img></a>
-        <a href="https://grad.tamu.edu/aggie-life/aggie-voice/ayushri-jain" target="_blank" rel="noreferrer" class="social-icon"><img src={tamulogo}></img></a>
+    <a href="https://www.linkedin.com/in/ayushrijain" target="_blank" rel="noreferrer" class="social-icon"><i><img src={linkedinlogo} alt="linkedin"></img></i></a>
+        <a href="https://github.com/AJ1904" target="_blank" rel="noreferrer" class="social-icon"><img src={githublogo}  alt="github"></img></a>
+        <a href="mailto:ayushrijain19@gmail.com" target="_blank" rel="noreferrer" class="social-icon"><img src={gmaillogo} alt="gmail"></img></a>
+        <a href="https://grad.tamu.edu/aggie-life/aggie-voice/ayushri-jain" target="_blank" rel="noreferrer" class="social-icon"><img src={tamulogo} alt="tamu"></img></a>
         
     </div>
     </>

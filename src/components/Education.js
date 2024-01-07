@@ -1,7 +1,5 @@
 import React from 'react';
 import '../App.css';
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
 import manitlogo from '../assets/manit_logo.png';
 import tamulogo from '../assets/tamu_logo.png';
 const Education = () => {
