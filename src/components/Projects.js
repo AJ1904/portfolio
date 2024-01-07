@@ -232,7 +232,7 @@ const Projects = () => {
     <div className="project">
         <div className="education">
             <div className="education-logo">
-                <a href="#" target="_blank" rel="noreferrer"><img src={logo} alt="Logo"></img></a>
+                <a href="#home" target="_blank" rel="noreferrer"><img src={logo} alt="Logo"></img></a>
             </div>
             <div className="education-text">
                 <h3>Personal Portfolio</h3>
