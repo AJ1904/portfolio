@@ -10,7 +10,7 @@ const Education = () => {
         <>
             <div className="education">
         <div className="education-logo">
-          <a href="https://www.tamu.edu/" target="_blank"><img src={tamulogo} alt="TAMU Logo"></img></a>
+          <a href="https://www.tamu.edu/" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
           
         </div>
         <div className="education-text">
@@ -31,7 +31,7 @@ const Education = () => {
 
       <div className="education">
         <div className="education-logo">
-          <a href="https://www.manit.ac.in/" target="_blank"><img src={manitlogo} alt="MANIT Logo"></img></a>
+          <a href="https://www.manit.ac.in/" target="_blank" rel="noreferrer"><img src={manitlogo} alt="MANIT Logo"></img></a>
           
         </div>
         <div className="education-text">

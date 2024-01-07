@@ -9,7 +9,7 @@ const Experience = () => {
     <>
       <div className="education">
         <div className="education-logo">
-          <a href="https://www.optum.com/" target="_blank"><img src={optumlogo} alt="optum Logo"></img></a>
+          <a href="https://www.optum.com/" target="_blank" rel="noreferrer"><img src={optumlogo} alt="optum Logo"></img></a>
           
         </div>
         <div className="education-text">
@@ -38,7 +38,7 @@ const Experience = () => {
 
       <div className="education">
         <div className="education-logo">
-          <a href="https://www.optum.com/" target="_blank"><img src={optumlogo} alt="optum Logo"></img></a>
+          <a href="https://www.optum.com/" target="_blank" rel="noreferrer"><img src={optumlogo} alt="optum Logo"></img></a>
           
         </div>
         <div className="education-text">
@@ -75,7 +75,7 @@ const Experience = () => {
       
       <div className="education">
         <div className="education-logo">
-          <a href="https://www.linkedin.com/company/endeavr-institute/" target="_blank"><img src={endeavrlogo} alt="ENDEAVR Logo"></img></a>
+          <a href="https://www.linkedin.com/company/endeavr-institute/" target="_blank" rel="noreferrer"><img src={endeavrlogo} alt="ENDEAVR Logo"></img></a>
           
         </div>
         <div className="education-text">
@@ -95,7 +95,7 @@ const Experience = () => {
       <div className="education">
         <div className="education-logo">
 
-          <a href="https://www.tamu.edu/" target="_blank"><img src={tamulogo} alt="TAMU Logo"></img></a>
+          <a href="https://www.tamu.edu/" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
           
         </div>
         <div className="education-text">

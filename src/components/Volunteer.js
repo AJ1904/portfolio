@@ -12,7 +12,7 @@ const Volunteer = () => {
       
 <div class="education">
     <div class="education-logo">
-        <a href="https://www.tamu.edu/emergency/" target="_blank"><img src={saferlogo} alt="SAFER TAMU Logo"></img></a>
+        <a href="https://www.tamu.edu/emergency/" target="_blank" rel="noreferrer"><img src={saferlogo} alt="SAFER TAMU Logo"></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -33,7 +33,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank"><img src={maroonbaselogo} alt="maroonbase"></img></a>
+        <a href="" target="_blank" rel="noreferrer"><img src={maroonbaselogo} alt="maroonbase"></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -53,7 +53,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank"><img src={manitlogo} alt=""></img></a>
+        <a href="" target="_blank" rel="noreferrer"><img src={manitlogo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -73,7 +73,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank"><img src={rotaractlogo} alt=""></img></a>
+        <a href="" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -92,7 +92,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank"><img src={rotaractlogo} alt=""></img></a>
+        <a href="" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
@@ -111,7 +111,7 @@ const Volunteer = () => {
 
 <div class="education">
     <div class="education-logo">
-        <a href="" target="_blank"><img src={roobaroologo} alt=""></img></a>
+        <a href="" target="_blank" rel="noreferrer"><img src={roobaroologo} alt=""></img></a>
     </div>
     <div className='leftalign'>
     <div class="education-text">
