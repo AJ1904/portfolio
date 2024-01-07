@@ -5,8 +5,8 @@ const Recognition  = () => {
   return (
     
       <>
-      <h5 class="homeh5">
-<ul class="custom-list">
+      <h5 className="homeh5">
+<ul className="custom-list">
 <li> 🏆 Github's Top Machine Learning Voice</li>
 <li> 🏆 Devlympics - The Ultimate Warrior (Secure Code Warrior) 2023</li>
 <li> 🏆 Devlympics - Web - 2nd Place (Secure Code Warrior) 2023</li>

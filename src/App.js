@@ -9,7 +9,7 @@ import Volunteer from './components/Volunteer';
 import Recognition from './components/Recognition';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import CustomNavbar from './components/Navbar'; // Import Navbar
+import CustomNavbar from './components/CustomNavbar'; // Import Navbar
 import { useState } from 'react';
 import React from 'react';
 
