@@ -1,22 +1,11 @@
 import React from 'react';
 import '../App.css';
 import homegif from '../assets/homegif.gif';
-import linkedinlogo from '../assets/linkedin.png';
-import githublogo from '../assets/github.png';
-import gmaillogo from '../assets/gmail.png';
 import tamulogo from '../assets/tamu_logo.png';
-import Skills from './Skills';
-import Education from './Education';
-import Experience from './Experience';
-import Certifications from './Certifications';
-import Volunteer from './Volunteer';
 import Recognition from './Recognition';
 import manitlogo from '../assets/manit_logo.png';
 import optumlogo from '../assets/optum_logo.png';
-
 import endeavrlogo from '../assets/endeavr_logo.jpeg';
-
-// import Projects from './Projects';
 import Contact from './Contact';
 import { useEffect } from 'react';
 
