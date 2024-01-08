@@ -47,7 +47,7 @@ h1, h2 {
   text-align: center;
 }
 .homename {
-  color: red; /* Change color here */
+  color: #f92b2b; /* Change color here */
   margin-left:0.25em
 }
 .homecontent {
@@ -208,3 +208,14 @@ h1, h2 {
   display: block;
   margin-bottom: 5px;
 }
+
+.section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+
+}
+
+.section.show {
+  opacity: 1;
+}
+

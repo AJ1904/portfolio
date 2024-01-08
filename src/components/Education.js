@@ -6,6 +6,7 @@ const Education = () => {
     return (
 
         <>
+        
             <div className="education">
         <div className="education-logo">
           <a href="https://www.tamu.edu/" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
