@@ -8,9 +8,11 @@ const Contact = () => {
   return (
     
       <>
-      
-<center>Please feel free to reach out to me via email or LinkedIn. </center>
-<center> I am generally open to new opportunities and collaborations.</center>
+      <br />
+      <br />
+      <br />
+<h4><center>Please feel free to reach out to me via email or LinkedIn. </center></h4>
+<h4><center> I am generally open to new opportunities and collaborations.</center></h4>
 <div className="social-icons">
         <a href="https://www.linkedin.com/in/ayushrijain" target="_blank" rel="noreferrer" className="social-icon"><i><img src={linkedinlogo} alt="linkedin"></img></i></a>
         <a href="https://github.com/AJ1904" target="_blank" rel="noreferrer" className="social-icon"><img src={githublogo}  alt="github"></img></a>

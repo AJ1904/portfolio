@@ -69,9 +69,6 @@ const Experience = () => {
       </div>
 
 
-
-      <br />
-
       
       <div className="education">
         <div className="education-logo">
@@ -89,7 +86,7 @@ const Experience = () => {
         </div>
       </div>
 
-      <br />
+
 
 
       <div className="education">
@@ -110,9 +107,6 @@ const Experience = () => {
           </ul>
         </div>
         </div>
-
-
-      <br />
 
 
     </>

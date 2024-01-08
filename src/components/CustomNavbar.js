@@ -9,10 +9,10 @@ function CustomNavbar({ setSelectedTab }) {
   return (
     <Nav fill variant="tabs">
 
-      <Nav.Item onClick={() => setSelectedTab('home')}> <Nav.Link href="/home"><img
+      <Nav.Item onClick={() => setSelectedTab('home')}> <Nav.Link eventKey="/home"><img
         src={logo}
         height="24"
-        width="80%"
+        width="90%"
         className="d-inline-block"
         alt="jain.a() logo" /> </Nav.Link> </Nav.Item>
       {/* <Nav.Item onClick={() => setSelectedTab('home')}> <Nav.Link eventKey="/home">Home</Nav.Link> </Nav.Item> */}

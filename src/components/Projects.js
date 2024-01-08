@@ -4,7 +4,7 @@ import gitlogo from '../assets/github.png';
 import tamulogo from '../assets/tamu_logo.png';
 import manitlogo from '../assets/manit_logo.png';
 import logo from '../assets/logo.png';
-import saajlogo from '../assets/saaj_logo.svg';
+import saajlogo from '../assets/saaj_logo.png';
 import rotaractlogo from '../assets/rotaract_logo.jpeg';
 const Projects = () => {
   return (
@@ -18,7 +18,7 @@ const Projects = () => {
                 <a href="https://saajheaven.web.app/" target="_blank" rel="noreferrer"><img src={saajlogo} alt="SAAJ Heaven Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>SAAJ Heaven Website</h3>
+                <h4>SAAJ Heaven Website</h4>
                 <h5>🛠️ Angular, Firebase, Software Engineering</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 SAAJ Heaven is an art & craft store which creates and sells handmade traditional decor for festivals and other occasions.</h6></li>
@@ -33,7 +33,7 @@ const Projects = () => {
                 <a href="https://github.com/AJ1904/Sentiment-Analysis-Using-Transformers" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Sentiment Analysis Using Transformers</h3>
+                <h4>Sentiment Analysis Using Transformers</h4>
                 <h5>🛠️ TensorFlow, PyTorch, Machine Learning, Python</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 This project is about exploring and implementing various machine learning models like CNN, RNN and Transformers for sentiment analysis based on the YELP text review and stars.</h6></li>
@@ -54,7 +54,7 @@ const Projects = () => {
                 <a href="https://github.com/AJ1904/machine-translation-artificial-language" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Powerful deep learning model for machine translation</h3>
+                <h4>Powerful deep learning model for machine translation</h4>
                 <h5>🛠️ TensorFlow, Transfer Learning, High Performance Computing (HPC), Machine Learning, Deep Learning</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 This study focuses on machine translation for two synthetic languages: an "Input Language" and an "Output Language." </h6></li>
@@ -71,7 +71,7 @@ const Projects = () => {
                 <a href="https://github.com/FashioNXT/NXTFolio" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Deep Learning Model on Noisy MNIST Handwritten Digits Dataset</h3>
+                <h4>Deep Learning Model on Noisy MNIST Handwritten Digits Dataset</h4>
                 <h5>🛠️ TensorFlow, Transfer Learning, Deep Learning Models using Multiple GPUs, Machine Learning, Deep Learning</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 When we add noise to images in the MNIST dataset, the digits in the images become more and more difficult for human to recognize. However, interestingly, deep neural networks can still be trained to recognize them relatively well.</h6></li>
@@ -91,7 +91,7 @@ const Projects = () => {
                 <a href="https://github.com/AJ1904/machine-learning-from-scratch" target="_blank" rel="noreferrer"><img src={gitlogo} alt="Project Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Machine Learning From Scratch</h3>
+                <h4>Machine Learning From Scratch</h4>
                 <h5>🛠️ TensorFlow, Machine Learning</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 This study contains projects related to Machine Learning CSCE 633. </h6></li>
@@ -106,7 +106,7 @@ const Projects = () => {
                 <a href="https://github.com/AJ1904/Microsoft-Ignite-Azure-AI-Language" target="_blank" rel="noreferrer"><img src="https://github.com/AJ1904/Microsoft-Ignite-Azure-AI-Language/assets/49027490/4438e3a4-2f84-40c9-98cf-c0b12d2928cb" alt="Microsoft Ignite Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Microsoft Ignite Azure AI Challenge</h3>
+                <h4>Microsoft Ignite Azure AI Challenge</h4>
                 <h5>🛠️ Artificial Intelligence, Microsoft Azure</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 I successfully completed the Microsoft Ignite module on Azure AI Language, focusing on building natural language processing (NLP) solutions using Azure AI Language services.</h6></li>
@@ -127,7 +127,7 @@ const Projects = () => {
                 <a href="https://www.linkedin.com/in/ayushrijain/#:~:text=to%20Detail%20%C2%B7%20Collaboration-,Machine%20Learning%20Engineer,-Machine%20Learning%20Engineer" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Autonomous Vehicle Navigation: using Carla neural networks & AI</h3>
+                <h4>Autonomous Vehicle Navigation: using Carla neural networks & AI</h4>
                 <h5>🛠️ Carla, Python, Neural Networks, Computer Vision</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 Created end-to-end autonomous driving solutions in Python and simulated results in Carla </h6></li>
@@ -142,7 +142,7 @@ const Projects = () => {
                 <a href="https://github.com/FashioNXT/NXTFolio" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>NXTFolio: A Ruby on Rails Web App for Fashion industry FashionNXT</h3>
+                <h4>NXTFolio: A Ruby on Rails Web App for Fashion industry FashionNXT</h4>
                 <h5>🛠️ Ruby on Rails, HTML, CSS, Cucumber, Selenium, RSpec</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 Developed the web app's features like login, tagging, seeding using Html, CSS, S3, Ruby on Rails</h6></li>
@@ -164,7 +164,7 @@ const Projects = () => {
                 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=and%20cucumber%20tests-,Major%20Project%20%3A%20%27Enhancing%20the%20Capability%20of%20Analytical%20Hierarchy%20Process%20using%20Fuzzy%20Logic%20embedded%20with%20Neural%20Networks%27,-Major%20Project%20%3A%20%27Enhancing" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Enhancing the Capability of Analytical Hierarchy Process using Fuzzy Logic embedded with Neural Networks'</h3>
+                <h4>Enhancing the Capability of Analytical Hierarchy Process using Fuzzy Logic embedded with Neural Networks'</h4>
                 <h5>🛠️ Python, Java, Fuzzy Logic, Neural Networks</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 Developed a multi-criteria classification model through integration of fuzzy analytical hierarchy process and NN</h6></li>
@@ -179,7 +179,7 @@ const Projects = () => {
                 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=Swachha%20Bharat%20Abhiyan%E2%80%9D.-,Minor%20Project%20%3A%20%27Text%20to%20Emoji%27,-Minor%20Project%20%3A%20%27Text" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Text to Emoji</h3>
+                <h4>Text to Emoji</h4>
                 <h5>🛠️ Python, Android, Machine Learning, Java</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 Developed android application to suggest emojis based on given text with 95% accuracy</h6></li>
@@ -200,7 +200,7 @@ const Projects = () => {
                 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=for%20training%20purpose.-,Software%20Engineering%20Project%20%3A%20%27Rotaract%20App%27,-Software%20Engineering%20Project" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt="TAMU Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Rotaract App</h3>
+                <h4>Rotaract App</h4>
                 <h5>🛠️ Android, Java, Kotlin</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 Developed attendance tracking feature using user friendly UI designs</h6></li>
@@ -215,7 +215,7 @@ const Projects = () => {
                 <a href="https://github.com/AJ1904/Natural-Language-Processing" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Natural Language Processing</h3>
+                <h4>Natural Language Processing</h4>
                 <h5>🛠️ HuggingFace, Python, Jupyter</h5>
                 <ul className="custom-list">
                     <li><h6 className="educationh6">👩🏻‍💻 This study is about using transformers for various natural language processing tasks</h6></li>
@@ -235,7 +235,7 @@ const Projects = () => {
                 <a href="https://github.com/AJ1904/portfolio" target="_blank" rel="noreferrer"><img src={logo} alt="Logo"></img></a>
             </div>
             <div className="education-text">
-                <h3>Personal Portfolio</h3>
+                <h4>Personal Portfolio</h4>
                 <h5>🛠️ Taipy, Python, HTML, CSS, Angular, Firebase</h5>
                 <ul className="custom-list">
                   <li><h6 className="educationh6">👩🏻‍💻 (This) Personal Portfolio developed using React.</h6></li>

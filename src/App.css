@@ -72,7 +72,7 @@ h1, h2 {
 
 /* Style for the h5 elements */
 .homeh5 {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 5px 0; /* Adjust the margin as needed */
   text-align: center;
   font-weight: normal; 
@@ -105,10 +105,11 @@ h1, h2 {
   display: flex;
   align-items: center;
   /* width: 50%; */
-  padding-right: 1%;
-  padding-left: 1%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  /* padding-right: 1%;
+  padding-left: 1%; */
+  padding-top: 1%; 
+  padding-bottom: 1%;
+  border-bottom: 1px solid #ccc; /* Add a border between sections */
 }
 
 .education-text {
@@ -116,16 +117,17 @@ h1, h2 {
 }
 
 .education-logo {
-  width: 20%; /* Adjust this as needed */
-  height: 50%; /* Adjust this as needed */
-  /* border-radius: 50%; Creates a circle */
+  max-width: 20%; /* Adjust this as needed */
+  max-height: 20%; /* Adjust this as needed */
+  align-items: center;
+  padding-left: 5%;
   overflow: hidden; /* Ensures the image stays within the circle */
   /* align-items: right; */
 }
 
 .education img {
-  width: 60%; /* Ensures the image fills the circle */
-  height: 100%; /* Ensures the image fills the circle */
+  max-width: 80%; /* Ensures the image fills the circle */
+  max-height: 80%; /* Ensures the image fills the circle */
   object-fit: cover; /* Maintains image aspect ratio */
 }
 
@@ -139,6 +141,7 @@ h1, h2 {
   margin: 5px 0; /* Adjust the margin as needed */
   font-weight: normal; 
   text-align: left;
+  padding-right: 2%;
 }
 
 .leftalign {
@@ -151,9 +154,9 @@ h1, h2 {
 
 .projects {
   display: flex;
-  gap: 20px; /* Adjust as needed */
+  gap: 1%; /* Adjust as needed */
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 1%;
 }
 
 .project {
@@ -169,3 +172,39 @@ h1, h2 {
   background-color: black;
   color: white;
 } */
+
+/* Styling for the logos */
+.leftalign img {
+  margin-right: 1%;
+  margin-bottom: 1%;
+  border-radius: 1%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for logos */
+.leftalign img:hover {
+  transform: scale(1.1);
+}
+
+
+.achievements {
+  display: flex;
+  /* gap: 20px; Adjust the space between categories */
+}
+
+.category {
+  flex: 1;
+  border-right: 1px solid #ccc; /* Optional: Add a border for better separation */
+  padding: 1%; /* Optional: Add padding around each category */
+  object-fit: fill;
+}
+
+.category-title {
+  margin-top: 0;
+}
+
+.year {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}

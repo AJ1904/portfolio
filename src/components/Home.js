@@ -9,6 +9,7 @@ const Home = () => {
   return (
     <>
     <div className="homecontainer">
+      <br />
       <h1>Hey! :D</h1>
       <h2>I am <span className="homename">Ayushri Jain</span>.</h2>
 
