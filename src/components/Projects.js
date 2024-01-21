@@ -6,6 +6,7 @@ import manitlogo from '../assets/manit_logo.png';
 import logo from '../assets/logo.png';
 import saajlogo from '../assets/saaj_logo.png';
 import rotaractlogo from '../assets/rotaract_logo.jpeg';
+import helloworldlogo from '../assets/helloworld_logo.png';
 const Projects = () => {
   return (
     
@@ -242,6 +243,21 @@ const Projects = () => {
                     <li><h6 className="educationh6">👩🏻‍💻 Another <a href="https://github.com/AJ1904/taipy-portfolio" target="_blank" rel="noreferrer"> portfolio</a> developed using Taipy.</h6></li>
                     <li><h6 className="educationh6">👩🏻‍💻 Another <a href="https://aj1904.github.io/codespaces-portfolio/" target="_blank" rel="noreferrer"> portfolio</a> using Github Codespaces and Github Pages.</h6></li>
                     <li><h6 className="educationh6">👩🏻‍💻 Old <a href="https://ayushrijain.web.app/" target="_blank" rel="noreferrer"> portfolio</a> using Javascript and Firebase.</h6></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div className="project">
+        <div className="education">
+            <div className="education-logo">
+                <a href="https://github.com/AJ1904/hello-world" target="_blank" rel="noreferrer"><img src={helloworldlogo} alt="Logo"></img></a>
+            </div>
+            <div className="education-text">
+                <h4>Hello World</h4>
+                <h5>🛠️ Taipy, Python</h5>
+                <ul className="custom-list">
+                  <li><h6 className="educationh6">👩🏻‍💻 Fun way of translating of 'Hello World!' in 76 languages used worldwide.</h6></li>
                 </ul>
             </div>
         </div>
