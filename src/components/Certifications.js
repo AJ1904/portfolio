@@ -18,6 +18,13 @@ const Certifications = () => {
 <li><a href="https://www.linkedin.com/in/ayushrijain/details/certifications/1635554739972/single-media-viewer?type=DOCUMENT&profileId=ACoAAB92TxMBv2ka7uTyeovNcno2w0r-QrjBL_0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BP4jVgVqDSUKjQUnBO4eQ2g%3D%3D" target="_blank" rel="noreferrer">🏅 Introduction to Generative AI: Art of the Possible</a></li>
 <li><a href="https://www.linkedin.com/in/ayushrijain/details/certifications/1635554739969/single-media-viewer?type=DOCUMENT&profileId=ACoAAB92TxMBv2ka7uTyeovNcno2w0r-QrjBL_0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BP4jVgVqDSUKjQUnBO4eQ2g%3D%3D" target="_blank" rel="noreferrer">🏅 Introduction to Machine Learning: Art of the Possible</a></li>
 <li><a href="https://www.linkedin.com/in/ayushrijain/details/certifications/1635554742556/single-media-viewer?type=DOCUMENT&profileId=ACoAAB92TxMBv2ka7uTyeovNcno2w0r-QrjBL_0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BP4jVgVqDSUKjQUnBO4eQ2g%3D%3D" target="_blank" rel="noreferrer">🏅 Planning a Generative AI Project</a></li>
+<li><a href="https://www.credly.com/earner/earned/badge/b0e94ed7-cb1b-4211-b6ce-fdce60dc4c8f" target="_blank" rel="noreferrer">🏅 AWS Educate Getting Started with Databases</a></li>
+    <li><a href="https://www.credly.com/earner/earned/badge/0844c3d0-2df6-44fe-911a-4fa1dd812295" target="_blank" rel="noreferrer">🏅 AWS Educate Getting Started with Compute</a></li>
+    <li><a href="https://www.credly.com/earner/earned/badge/0868b3c0-5ec3-4250-9b79-f44ec5f6bb87" target="_blank" rel="noreferrer">🏅 AWS Educate Introduction to Cloud 101</a></li>
+    <li><a href="https://www.credly.com/earner/earned/badge/eed9c294-b69c-4f97-b59a-c09ddbaec22b" target="_blank" rel="noreferrer">🏅 AWS Educate Getting Started with Storage</a></li>
+    <li><a href="" target="_blank" rel="noreferrer">🏅 </a></li>
+    <li><a href="" target="_blank" rel="noreferrer">🏅 </a></li>
+    
 </ul>
 
 <h3 className="leftalign">Microsoft</h3>
@@ -34,7 +41,8 @@ const Certifications = () => {
 <li><a href="https://learn.microsoft.com/api/achievements/share/en-us/JainAyushri-0042/4SNYEZ9K?sharingId=966CA24C5AD997DF" target="_blank" rel="noreferrer">🏅 Create speech-enabled apps with Azure AI services Badge</a></li>
 <li><a href="https://learn.microsoft.com/api/achievements/share/en-us/JainAyushri-0042/ZPC3AZB2?sharingId=966CA24C5AD997DF" target="_blank" rel="noreferrer">🏅 Develop natural language processing solutions with Azure AI Services Badge</a></li>
 <li><a href="https://learn.microsoft.com/api/achievements/share/en-us/JainAyushri-0042/HYKJUHR8?sharingId=966CA24C5AD997DF" target="_blank" rel="noreferrer">🏅 Translate speech with the Azure AI Speech service Badge</a></li>
-
+<li><a href="https://www.credly.com/badges/b4e7aa2d-deb2-49f9-8f1e-124e2e9bc22f/public_url" target="_blank" rel="noreferrer">🏅 Microsoft Certified: Azure Data Fundamentals</a></li>
+<li><a href="https://www.credly.com/badges/2c4eaee3-9e89-4724-a77c-1c9186ce6176/public_url" target="_blank" rel="noreferrer">🏅 Microsoft Certified: Azure Fundamentals</a></li>
 </ul>
 
 <h3 className="leftalign">Google</h3>
@@ -53,6 +61,7 @@ const Certifications = () => {
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6939250" target="_blank" rel="noreferrer">🏅 Use Functions, Formulas, and Charts in Google Sheets</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6915535" target="_blank" rel="noreferrer">🏅 Begin with Workspace: Essentials</a></li>
 <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/86B9EVX4WJ7X" target="_blank" rel="noreferrer">🏅 Google Data Analytics Specialization</a></li>
+<li><a href="https://www.credly.com/earner/earned/badge/d121deb3-f3b3-4600-a550-b0b540e42d31" target="_blank" rel="noreferrer">🏅 Google Data Analytics Professional Certificate</a></li>
     
 </ul>
 
