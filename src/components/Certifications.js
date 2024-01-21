@@ -40,7 +40,8 @@ const Certifications = () => {
 <h3 className="leftalign">Google</h3>
 <ul className="custom-list">
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf" target="_blank" rel="noreferrer">🏅 Google Cloud Profile</a></li>
-<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6941411" target="_blank" rel="noreferrer">🏅 Level 3: GenAIus Vertex</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7248851" target="_blank" rel="noreferrer">🏅 Engineer Data in Google Cloud</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7092937" target="_blank" rel="noreferrer">🏅 Level 3: GenAIus Vertex</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7231004" target="_blank" rel="noreferrer">🏅 Create ML Models with BigQuery ML</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7226655" target="_blank" rel="noreferrer">🏅 Level 2: Looker and BigQuery Skills</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7169331" target="_blank" rel="noreferrer">🏅 Cloud Functions: 3 Ways</a></li>
