@@ -47,7 +47,7 @@ const Experience = () => {
           <h5 className="leftalign">July 2019 - Feb 2022</h5>
           <ul className="custom-list">
 
-            <li><h6 className="educationh6">👩🏻‍💻 Standardized ETL process to create Data Products on Netezza using Spark and Airflow, showcased in OptumRx Global Town Hall of July 2020, reduced data footprint by 99% OptumRx Global Town Hall 2020.</h6></li>
+            <li><h6 className="educationh6">👩🏻‍💻 Standardized ETL process to create Data Products on Netezza using Spark and Airflow, showcased in OptumRx Global Town Hall of July 2020, reduced data footprint by 99%.</h6></li>
             <li><h6 className="educationh6">👩🏻‍💻 Migrated and maintaining 300TB data from Netezza and 35k+ tables from DB2 iSeries data to HDFS.</h6></li>
             <li><h6 className="educationh6">👩🏻‍💻 Conducted in-depth analysis of current business practices and processes, identifying opportunities for leveraging data storage and retrieval system capabilities using Hadoop HDFS and Spark.</h6></li>
             <li><h6 className="educationh6">👩🏻‍💻 Developed, tested, deployed complex pipelines to integrate multiple data assets using Oozie, Airflow, Azure.</h6></li>
