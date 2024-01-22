@@ -62,7 +62,7 @@ const Volunteer = () => {
         <h5>Jul 2018 - Apr 2019</h5>
         <ul className="custom-list">
             <li><h6 className="educationh6">🙋🏻‍♀️ Engaged with industry executives to conduct recruitment drives leading to placements of 210 CS students.</h6></li>
-            <li><h6 className="educationh6">🙋🏻‍♀️ Coordinated with various teams to conduct and facilitate online \& offline tests, interviews and group discussions.</h6></li>
+            <li><h6 className="educationh6">🙋🏻‍♀️ Coordinated with various teams to conduct and facilitate online & offline tests, interviews and group discussions.</h6></li>
             <li><h6 className="educationh6">🙋🏻‍♀️ Assisted students via emails, messages and calls for placement related queries.</h6></li>
 
         </ul>
