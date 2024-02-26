@@ -7,6 +7,8 @@ import logo from '../assets/logo.png';
 import saajlogo from '../assets/saaj_logo.png';
 import rotaractlogo from '../assets/rotaract_logo.jpeg';
 import helloworldlogo from '../assets/helloworld_logo.png';
+import valentine from '../assets/valentine.png';
+
 const Projects = () => {
   return (
     
@@ -262,6 +264,28 @@ const Projects = () => {
             </div>
         </div>
     </div>
+    
+</div>
+
+    <div className="projects">
+    <div className="project">
+        <div className="education">
+            <div className="education-logo">
+                <a href="https://missionvalentine.netlify.app" target="_blank" rel="noreferrer"><img src={valentine} alt="Logo"></img></a>
+            </div>
+            <div className="education-text">
+                <h4>Mission Valentine</h4>
+                <h5>🛠️ React, D3, Javascript, HTML, CSS, Netlify, Adobe</h5>
+                <ul className="custom-list">
+                  <li><h6 className="educationh6">👩🏻‍💻 React web application with D3 and multiple games, timers, puzzle, paint, audio.</h6></li>
+                  <li><h6 className="educationh6">👩🏻‍💻 Used Adobe Firefly for generating images with Prompt Engineering.</h6></li>
+                  <li><h6 className="educationh6">👩🏻‍💻 Use key anonymous to enter!</h6></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
     
 </div>
 
