@@ -55,7 +55,13 @@ const Certifications = () => {
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf" target="_blank" rel="noreferrer">🏅 Google Cloud Profile</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7248851" target="_blank" rel="noreferrer">🏅 Engineer Data in Google Cloud</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7092937" target="_blank" rel="noreferrer">🏅 Level 3: GenAIus Vertex</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8095682" target="_blank" rel="noreferrer">🏅 Level 3: GenAIus Conversations</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8049969" target="_blank" rel="noreferrer">🏅 Redis and Google Cloud Game Day</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7864325" target="_blank" rel="noreferrer">🏅 Build LookML Objects in Looker</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7962339" target="_blank" rel="noreferrer">🏅 Store, Process, and Manage Data on Google Cloud - Console</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7968228" target="_blank" rel="noreferrer">🏅 Perform Foundational Infrastructure Tasks in Google Cloud</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7231004" target="_blank" rel="noreferrer">🏅 Create ML Models with BigQuery ML</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8095604" target="_blank" rel="noreferrer">🏅 Level 2: Virtual Machines</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7226655" target="_blank" rel="noreferrer">🏅 Level 2: Looker and BigQuery Skills</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7169331" target="_blank" rel="noreferrer">🏅 Cloud Functions: 3 Ways</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7093336" target="_blank" rel="noreferrer">🏅 Introduction to Generative AI</a></li>
@@ -63,11 +69,22 @@ const Certifications = () => {
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7186858" target="_blank" rel="noreferrer">🏅 Exploring Data with Looker</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7173265" target="_blank" rel="noreferrer">🏅 Get Started with Looker</a></li>    
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6940414" target="_blank" rel="noreferrer">🏅 Level 1: Introduction to Google AppSheet</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7968488" target="_blank" rel="noreferrer">🏅 Level 1: Google Cloud Console</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8050043" target="_blank" rel="noreferrer">🏅 Arcade Carnival</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8082543" target="_blank" rel="noreferrer">🏅 The Arcade Certification Zone</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7859082" target="_blank" rel="noreferrer">🏅 The Arcade Trivia January 2024</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7969772" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 1</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8093981" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 2</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8094463" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 3</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8095401" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 4</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8115421" target="_blank" rel="noreferrer">🏅 The Basics of Google Cloud Compute</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8164238" target="_blank" rel="noreferrer">🏅 Get Started with Cloud Storage</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8172490" target="_blank" rel="noreferrer">🏅 Insights from Data with BigQuery </a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6939250" target="_blank" rel="noreferrer">🏅 Use Functions, Formulas, and Charts in Google Sheets</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6915535" target="_blank" rel="noreferrer">🏅 Begin with Workspace: Essentials</a></li>
 <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/86B9EVX4WJ7X" target="_blank" rel="noreferrer">🏅 Google Data Analytics Specialization</a></li>
 <li><a href="https://www.credly.com/earner/earned/badge/d121deb3-f3b3-4600-a550-b0b540e42d31" target="_blank" rel="noreferrer">🏅 Google Data Analytics Professional Certificate</a></li>
-    
+
 </ul>
 
 
