@@ -55,7 +55,13 @@ const Certifications = () => {
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf" target="_blank" rel="noreferrer">🏅 Google Cloud Profile</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7248851" target="_blank" rel="noreferrer">🏅 Engineer Data in Google Cloud</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7092937" target="_blank" rel="noreferrer">🏅 Level 3: GenAIus Vertex</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8095682" target="_blank" rel="noreferrer">🏅 Level 3: GenAIus Conversations</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8049969" target="_blank" rel="noreferrer">🏅 Redis and Google Cloud Game Day</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7864325" target="_blank" rel="noreferrer">🏅 Build LookML Objects in Looker</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7962339" target="_blank" rel="noreferrer">🏅 Store, Process, and Manage Data on Google Cloud - Console</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7968228" target="_blank" rel="noreferrer">🏅 Perform Foundational Infrastructure Tasks in Google Cloud</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7231004" target="_blank" rel="noreferrer">🏅 Create ML Models with BigQuery ML</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8095604" target="_blank" rel="noreferrer">🏅 Level 2: Virtual Machines</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7226655" target="_blank" rel="noreferrer">🏅 Level 2: Looker and BigQuery Skills</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7169331" target="_blank" rel="noreferrer">🏅 Cloud Functions: 3 Ways</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7093336" target="_blank" rel="noreferrer">🏅 Introduction to Generative AI</a></li>
@@ -63,17 +69,38 @@ const Certifications = () => {
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7186858" target="_blank" rel="noreferrer">🏅 Exploring Data with Looker</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7173265" target="_blank" rel="noreferrer">🏅 Get Started with Looker</a></li>    
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6940414" target="_blank" rel="noreferrer">🏅 Level 1: Introduction to Google AppSheet</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7968488" target="_blank" rel="noreferrer">🏅 Level 1: Google Cloud Console</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8050043" target="_blank" rel="noreferrer">🏅 Arcade Carnival</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8082543" target="_blank" rel="noreferrer">🏅 The Arcade Certification Zone</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7859082" target="_blank" rel="noreferrer">🏅 The Arcade Trivia January 2024</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/7969772" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 1</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8093981" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 2</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8094463" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 3</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8095401" target="_blank" rel="noreferrer">🏅 The Arcade Trivia February 2024 Week 4</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8115421" target="_blank" rel="noreferrer">🏅 The Basics of Google Cloud Compute</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8164238" target="_blank" rel="noreferrer">🏅 Get Started with Cloud Storage</a></li>
+<li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/8172490" target="_blank" rel="noreferrer">🏅 Insights from Data with BigQuery </a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6939250" target="_blank" rel="noreferrer">🏅 Use Functions, Formulas, and Charts in Google Sheets</a></li>
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf/badges/6915535" target="_blank" rel="noreferrer">🏅 Begin with Workspace: Essentials</a></li>
 <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/86B9EVX4WJ7X" target="_blank" rel="noreferrer">🏅 Google Data Analytics Specialization</a></li>
 <li><a href="https://www.credly.com/earner/earned/badge/d121deb3-f3b3-4600-a550-b0b540e42d31" target="_blank" rel="noreferrer">🏅 Google Data Analytics Professional Certificate</a></li>
-    
+
 </ul>
 
 
 <h3 className="leftalign">Others</h3>
 <ul className="custom-list">
 <li><a href="https://courses.nvidia.com/certificates/fd23c272034c407094ea7a04a46c90a6/" target="_blank" rel="noreferrer">🏅 NVIDIA DLI: Data Parallelism: How to Train Deep Learning Models on Multiple GPUs</a></li>
+<li><a href="https://www.kaggle.com/learn/certification/ayushrijain/advanced-sql" target="_blank" rel="noreferrer">🏅 Kaggle - Advanced SQL</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/data-visualization" target="_blank" rel="noreferrer">🏅 Kaggle - Data Visualization</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/python" target="_blank" rel="noreferrer">🏅 Kaggle - Python</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/pandas" target="_blank" rel="noreferrer">🏅 Kaggle - Pandas</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-game-ai-and-reinforcement-learning" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to Game AI and Reinforcement Learning</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-sql" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to SQL</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-programming" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to Programming</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-machine-learning" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to Machine Learning</a></li>
+    
+    
 <li><a href="https://www.linkedin.com/learning/certificates/291a49bf1a12f8b04afe10553f4705847259ffd856aa3afc3673d16634e1f189?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BvUZVDzHaTGar6gG%2BZgz6Jg%3D%3D" target="_blank" rel="noreferrer">🏅 Ruby Essential Training Part 1: The Basics</a></li>
 <li><a href="https://www.linkedin.com/learning/certificates/e00a949378e7567639490ac80bcea6c6752764899e3c57ae4370b3657733e016?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BvUZVDzHaTGar6gG%2BZgz6Jg%3D%3D" target="_blank" rel="noreferrer">🏅 Learning Docker</a></li>
 <li><a href="https://www.coursera.org/account/accomplishments/certificate/E9NK7Q2BVTBU" target="_blank" rel="noreferrer">🏅 Introduction and Programming with IoT Boards</a></li>
