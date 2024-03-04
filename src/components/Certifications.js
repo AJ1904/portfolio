@@ -91,6 +91,16 @@ const Certifications = () => {
 <h3 className="leftalign">Others</h3>
 <ul className="custom-list">
 <li><a href="https://courses.nvidia.com/certificates/fd23c272034c407094ea7a04a46c90a6/" target="_blank" rel="noreferrer">🏅 NVIDIA DLI: Data Parallelism: How to Train Deep Learning Models on Multiple GPUs</a></li>
+<li><a href="https://www.kaggle.com/learn/certification/ayushrijain/advanced-sql" target="_blank" rel="noreferrer">🏅 Kaggle - Advanced SQL</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/data-visualization" target="_blank" rel="noreferrer">🏅 Kaggle - Data Visualization</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/python" target="_blank" rel="noreferrer">🏅 Kaggle - Python</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/pandas" target="_blank" rel="noreferrer">🏅 Kaggle - Pandas</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-game-ai-and-reinforcement-learning" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to Game AI and Reinforcement Learning</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-sql" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to SQL</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-programming" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to Programming</a></li>
+    <li><a href="https://www.kaggle.com/learn/certification/ayushrijain/intro-to-machine-learning" target="_blank" rel="noreferrer">🏅 Kaggle - Intro to Machine Learning</a></li>
+    
+    
 <li><a href="https://www.linkedin.com/learning/certificates/291a49bf1a12f8b04afe10553f4705847259ffd856aa3afc3673d16634e1f189?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BvUZVDzHaTGar6gG%2BZgz6Jg%3D%3D" target="_blank" rel="noreferrer">🏅 Ruby Essential Training Part 1: The Basics</a></li>
 <li><a href="https://www.linkedin.com/learning/certificates/e00a949378e7567639490ac80bcea6c6752764899e3c57ae4370b3657733e016?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BvUZVDzHaTGar6gG%2BZgz6Jg%3D%3D" target="_blank" rel="noreferrer">🏅 Learning Docker</a></li>
 <li><a href="https://www.coursera.org/account/accomplishments/certificate/E9NK7Q2BVTBU" target="_blank" rel="noreferrer">🏅 Introduction and Programming with IoT Boards</a></li>
