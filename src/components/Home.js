@@ -40,7 +40,7 @@ const Home = () => {
       </div>
 
       <h4 className="homeh5">Always learning and exploring the intersections of technology and innovation.</h4>
-      <h4 className="homeh5">Passionate about simplifying, automating, and optimizing pipelines, machine learning models, and software.</h4>
+      <h4 className="homeh5">Passionate about simplifying, automating, and optimizing pipelines, cloud applications, machine learning models, and software.</h4>
       <h4 className="homeh5">Creating unique and simplistic applications in creative ways.</h4>
     </div>
 
