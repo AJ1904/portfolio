@@ -25,6 +25,10 @@ The Talking Portfolio is not your typical portfolio website. It is an innovative
 
 The Talking Portfolio is more than just a showcase of your achievements; it is a storytelling platform that allows you to convey your personality, passion, and expertise effectively. Whether you are a job seeker, freelancer, entrepreneur, or creative professional, this innovative approach to self-presentation can set you apart in a competitive landscape. So, why settle for a boring portfolio when you can create an immersive and memorable experience for your visitors?
 
+## Technology Stack
+- React
+- Shepherd
+
 ## Demo
 - Watch [live](https://ayushrijain.netlify.app/) in action!
 - Watch on [YouTube](https://youtu.be/6ZcpjSADpQI) or here:
