@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# The Talking Portfolio : A Unique Self-Presentation Experience
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Talking Portfolio is not your typical portfolio website. It is an innovative approach to self-presentation, incorporating interactive guided tours that bring your profile to life. With multiple tabs covering various aspects of your background and achievements, this portfolio offers a comprehensive view of who you are and what you've accomplished.
 
-## Available Scripts
+## Key Features:
 
-In the project directory, you can run:
+1. **Multiple Tabs:** The portfolio is divided into multiple tabs, each focusing on a specific aspect such as education, experience, skills, certifications, volunteer work, recognition, projects, and contact information. This ensures that visitors can explore different facets of your profile effortlessly.
+<img width="1512" alt="image" src="https://github.com/AJ1904/portfolio/assets/49027490/07c03cb3-3c5d-4357-90cf-b36cc47eefcd">
 
-### `npm start`
+2. **"Hear Me Out" Button:** At the heart of the Talking Portfolio is the "Hear Me Out" button. When clicked, it triggers an automated **Shepherd** tour of your entire profile. You don't need to click next or back; instead, the tour progresses seamlessly, providing insights into each section as if you were personally narrating your story.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img width="165" alt="image" src="https://github.com/AJ1904/portfolio/assets/49027490/b111448a-0919-45ea-9c68-0c6aafc393f7">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Audio Narration:** What sets this portfolio apart is the inclusion of audio narration for each step of the tour. As visitors navigate through your profile, they hear your voice or an AI-generated voice agent from the Web Speech API, delivering a personalized and engaging experience. Whether you're highlighting your educational background, detailing your work experience, or showcasing your projects, the audio narration adds a human touch, making the interaction more immersive.
 
-### `npm test`
+4. **Custom Navigation:** A custom navigation bar allows visitors to explore different tabs manually if they prefer to delve into specific sections of your portfolio independently.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Why Talking Portfolio?
 
-### `npm run build`
+- **Engaging User Experience:** Unlike traditional portfolios, the Talking Portfolio offers a dynamic and interactive user experience. Visitors feel like they are having a conversation with you as they navigate through your profile, enhancing engagement and retention.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Memorable Presentation:** By incorporating audio narration, the Talking Portfolio leaves a lasting impression on visitors. It is not just another static webpage; it is an opportunity to connect with your audience on a deeper level and leave them with a memorable experience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Accessibility:** The use of audio narration ensures accessibility for all visitors, including those with visual impairments. Everyone can enjoy and engage with your portfolio content seamlessly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The Talking Portfolio is more than just a showcase of your achievements; it is a storytelling platform that allows you to convey your personality, passion, and expertise effectively. Whether you are a job seeker, freelancer, entrepreneur, or creative professional, this innovative approach to self-presentation can set you apart in a competitive landscape. So, why settle for a boring portfolio when you can create an immersive and memorable experience for your visitors?
 
-### `npm run eject`
+## Demo
+- Watch [live](https://ayushrijain.netlify.app/) in action!
+- Watch on [YouTube](https://youtu.be/6ZcpjSADpQI) or here:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://github.com/AJ1904/portfolio/assets/49027490/b0d1af96-c0e8-4874-8e17-4f5872697ec2
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation and Running
 
-## Learn More
+To get started with this project, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Clone the Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/AJ1904/portfolio
+```
 
-### Code Splitting
+### 2. Navigate to the Project Directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd portfolio
+```
 
-### Analyzing the Bundle Size
+Navigate into the directory where you cloned the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3. Install Dependencies
 
-### Making a Progressive Web App
+Make sure you have Node.js and npm installed on your machine. Then, install the project dependencies using npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm install
+```
 
-### Advanced Configuration
+### 4. Start the Development Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Once the dependencies are installed, you can start the development server:
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+This command will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) in your web browser to view it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 5. Build for Production
+
+To build the app for production, use:
+
+```bash
+npm run build
+```
+
+This command will create an optimized production build of your app in the `build` folder.
+
+## FAQs
+### 1. Audio files
+
+Save your audio files in `src/audios` folder.
+
+### 2. Customize tour 
+
+Customize your tour by updating `src/components/TourShepherd.js` file.
+
+### 3. Image files
+
+Save your images and logo files in `src/assets` folder.
+
+### 4. Update information
+
+Update your information in the files of `src/components` folder.
+
+## Additional Information
+
+For more detailed instructions on using Create React App, React, Shepherd, and other dependencies, refer to their respective documentation:
+
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React documentation](https://reactjs.org/docs/getting-started.html)
+- [Shepherd documentation](https://shepherdjs.dev/docs)
+
+
