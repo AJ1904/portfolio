@@ -7,7 +7,7 @@ const Experience = () => {
   return (
 
     <>
-      <div className="education">
+      <div className="education" id="experience-1">
         <div className="education-logo">
           <a href="https://www.optum.com/" target="_blank" rel="noreferrer"><img src={optumlogo} alt="optum Logo"></img></a>
           
@@ -36,7 +36,7 @@ const Experience = () => {
 
       </div>
 
-      <div className="education">
+      <div className="education" id="experience-2">
         <div className="education-logo">
           <a href="https://www.optum.com/" target="_blank" rel="noreferrer"><img src={optumlogo} alt="optum Logo"></img></a>
           
@@ -70,7 +70,7 @@ const Experience = () => {
 
 
       
-      <div className="education">
+      <div className="education" id="experience-3">
         <div className="education-logo">
           <a href="https://www.linkedin.com/company/endeavr-institute/" target="_blank" rel="noreferrer"><img src={endeavrlogo} alt="ENDEAVR Logo"></img></a>
           
@@ -89,7 +89,7 @@ const Experience = () => {
 
 
 
-      <div className="education">
+      <div className="education" id="experience-4">
         <div className="education-logo">
 
           <a href="https://www.tamu.edu/" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
@@ -98,7 +98,7 @@ const Experience = () => {
         <div className="education-text">
         <h3 className="leftalign">Harold Vance Department of Petroleum Engineering at Texas A&M University</h3>
           <h4 className="leftalign">Research Technician</h4>
-          <h5 className="leftalign">Jun 2023 - Dec 2023</h5>
+          <h5 className="leftalign">Jun 2023 - Dec 2023, Jun 2024 - Present</h5>
           <ul className="custom-list">
             <li><h6 className="educationh6">👩🏻‍💻 Reviewed research papers related to applications of Machine Learning, Artificial Intelligence, Deep Learning in Energy, Decarbonization </h6></li>
             <li><h6 className="educationh6">👩🏻‍💻 Created information rich education material for students, industry professionals, managers and decision makers</h6></li>

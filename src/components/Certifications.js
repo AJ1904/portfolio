@@ -5,7 +5,7 @@ const Certifications = () => {
   return (
     
       <div className="leftalign">
-
+<div id="certifications-1">
 <h3 className="leftalign">Amazon</h3>
 <ul className="custom-list">
     <li><a href="https://www.credly.com/badges/65749492-ca82-41d1-8c5c-597fe804cbc1/public_url" target="_blank" rel="noreferrer">🏅 AWS Educate Web Builder</a></li>
@@ -31,7 +31,8 @@ const Certifications = () => {
 <li><a href="https://www.linkedin.com/in/ayushrijain/details/certifications/1635554742556/single-media-viewer?type=DOCUMENT&profileId=ACoAAB92TxMBv2ka7uTyeovNcno2w0r-QrjBL_0&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BP4jVgVqDSUKjQUnBO4eQ2g%3D%3D" target="_blank" rel="noreferrer">🏅 Planning a Generative AI Project</a></li>
     
 </ul>
-
+</div>
+<div id="certifications-2">
 <h3 className="leftalign">Microsoft</h3>
 <ul className="custom-list">
 <li><a href="https://learn.microsoft.com/en-us/users/jainayushri-0042/" target="_blank" rel="noreferrer">🏅 Azure Data Fundamentals DP-900</a></li>
@@ -49,7 +50,8 @@ const Certifications = () => {
 <li><a href="https://www.credly.com/badges/b4e7aa2d-deb2-49f9-8f1e-124e2e9bc22f/public_url" target="_blank" rel="noreferrer">🏅 Microsoft Certified: Azure Data Fundamentals</a></li>
 <li><a href="https://www.credly.com/badges/2c4eaee3-9e89-4724-a77c-1c9186ce6176/public_url" target="_blank" rel="noreferrer">🏅 Microsoft Certified: Azure Fundamentals</a></li>
 </ul>
-
+</div>
+<div id="certifications-3">
 <h3 className="leftalign">Google</h3>
 <ul className="custom-list">
 <li><a href="https://www.cloudskillsboost.google/public_profiles/b768d1de-aecc-421c-b7d1-1e237db883cf" target="_blank" rel="noreferrer">🏅 Google Cloud Profile</a></li>
@@ -86,7 +88,8 @@ const Certifications = () => {
 <li><a href="https://www.credly.com/earner/earned/badge/d121deb3-f3b3-4600-a550-b0b540e42d31" target="_blank" rel="noreferrer">🏅 Google Data Analytics Professional Certificate</a></li>
 
 </ul>
-
+</div>
+<div id="certifications-4">
 
 <h3 className="leftalign">Others</h3>
 <ul className="custom-list">
@@ -107,6 +110,7 @@ const Certifications = () => {
 <li><a href="https://certificates.cs50.io/d0d8ae26-be4b-4f3e-ab62-f8b54bbff451.png?size=letter" target="_blank" rel="noreferrer">🏅 CS50 Certificate</a></li>
 <li><a href="https://www.credly.com/users/ayushri-jain" target="_blank" rel="noreferrer">🏅 Credly Profile</a></li>
 </ul>
+</div>
 <br />
 
 

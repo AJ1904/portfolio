@@ -9,14 +9,17 @@ import Volunteer from './components/Volunteer';
 import Recognition from './components/Recognition';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import CustomNavbar from './components/CustomNavbar'; // Import Navbar
-import { useState } from 'react';
+import CustomNavbar from './components/CustomNavbar';
+import { useState, useEffect, useRef } from 'react';
 import React from 'react';
 
 function App() {
   
+  const [selectedTab, setSelectedTab] = useState('home');
+  
   const TABS = {
-    'home': <Home />,
+    // 'home': <Home />,
+    'home': <Home setSelectedTab={setSelectedTab} />,
     'projects': <Projects />,
     'contact': <Contact />,
     'education': <Education />,
@@ -27,15 +30,41 @@ function App() {
     'recognition': <Recognition />
   }
 
-  const [selectedTab, setSelectedTab] = useState('home');
 
-  return(
+
+   // Store references to each tab content
+   const tabRefs = {
+    'home': useRef(null),
+    'projects': useRef(null),
+    'contact': useRef(null),
+    'education': useRef(null),
+    'experience': useRef(null),
+    'skills': useRef(null),
+    'certifications': useRef(null),
+    'volunteer': useRef(null),
+    'recognition': useRef(null)
+  };
+
+  useEffect(() => {
+    if (tabRefs[selectedTab].current) {
+      tabRefs[selectedTab].current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [selectedTab]);
+
+  // return(
+  //   <div>
+  //     <CustomNavbar 
+  //       setSelectedTab={setSelectedTab}
+  //     />
+  //     {TABS[selectedTab]}
+  //   </div>
+  // )
+  return (
     <div>
-      <CustomNavbar 
-        setSelectedTab={setSelectedTab}
-      />
-      {/* this is the main content of the page */}
-      {TABS[selectedTab]}
+      <CustomNavbar setSelectedTab={setSelectedTab} />
+      <div ref={tabRefs[selectedTab]}>
+        {TABS[selectedTab]}
+      </div>
     </div>
   )
 

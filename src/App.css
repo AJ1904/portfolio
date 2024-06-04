@@ -163,16 +163,6 @@ h1, h2 {
   flex: 1;
 }
 
-
-/* #light{
-  background-color: rgb(255, 255, 255);
-}
-
-#dark{
-  background-color: black;
-  color: white;
-} */
-
 /* Styling for the logos */
 .leftalign img {
   margin-right: 1%;
@@ -219,3 +209,181 @@ h1, h2 {
   opacity: 1;
 }
 
+
+.interact-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.interact-button:hover {
+  background-color: darkred;
+  transform: scale(1.05);
+}
+
+.interact-button:active {
+  transform: scale(1);
+}
+
+/* shepherd */
+/* App.css */
+/* .shepherd-theme-custom {
+  background-color: rgba(245, 245, 245, 0);
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.shepherd-theme-custom .shepherd-header {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shepherd-theme-custom .shepherd-text {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.shepherd-theme-custom .shepherd-buttons {
+  text-align: right;
+  margin-top: 15px;
+}
+
+.shepherd-theme-custom .shepherd-button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.shepherd-theme-custom .shepherd-button:hover {
+  background-color: darkred;
+}
+
+.shepherd-theme-custom .shepherd-button:disabled {
+  background-color: #9e9e9e;
+}
+ */
+
+ /* .shepherd-theme-custom {
+  background-color: rgba(245, 245, 245, 0); 
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.shepherd-theme-custom .shepherd-content {
+  background-color: rgba(255, 255, 255, 0); 
+}
+
+.shepherd-theme-custom .shepherd-header {
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shepherd-theme-custom .shepherd-text {
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.shepherd-theme-custom .shepherd-buttons {
+  background-color: rgba(255, 255, 255, 0);
+  text-align: right;
+  margin-top: 15px;
+}
+
+.shepherd-theme-custom .shepherd-button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.shepherd-theme-custom .shepherd-button:hover {
+  background-color: darkred;
+}
+
+.shepherd-theme-custom .shepherd-button:disabled {
+  background-color: #9e9e9e;
+} */
+
+.shepherd-theme-custom {
+  /* background-color: rgba(245, 245, 245, 0) !important; Fully transparent background */
+  border: 2px solid red;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.shepherd-theme-custom .shepherd-content {
+  /* background-color: rgba(245, 245, 245, 0) !important; Fully transparent background */
+  /* border: 2px solid red; */
+}
+
+.shepherd-theme-custom .shepherd-header {
+  /* background-color: transparent !important; Ensure header background is transparent */
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.shepherd-theme-custom .shepherd-text {
+  /* background-color: transparent !important; Ensure text background is transparent */
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.shepherd-theme-custom .shepherd-buttons {
+  background-color: transparent !important; /* Ensure buttons background is transparent */
+  text-align: right;
+  margin-top: 15px;
+}
+
+.shepherd-theme-custom .shepherd-button {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.shepherd-theme-custom .shepherd-button:hover {
+  background-color: darkred;
+}
+
+.shepherd-theme-custom .shepherd-button:disabled {
+  background-color: #9e9e9e;
+}
+.shepherd-theme-custom .shepherd-arrow{
+  display: none;
+}

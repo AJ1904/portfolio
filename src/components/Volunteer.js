@@ -9,7 +9,7 @@ const Volunteer = () => {
   return (
     
       <>
-      
+      <div id="volunteerism">
 <div className="education">
     <div className="education-logo">
         <a href="https://www.tamu.edu/emergency/" target="_blank" rel="noreferrer"><img src={saferlogo} alt="SAFER TAMU Logo"></img></a>
@@ -126,7 +126,9 @@ const Volunteer = () => {
     </div>
     </div>
 <br />
+</div>
       </>
+
   );
 };
 

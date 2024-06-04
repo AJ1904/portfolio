@@ -6,7 +6,7 @@ const Education = () => {
   return (
 
     <>
-      <div className="education">
+      <div className="education" id="education-1">
         <div className="education-logo">
           <a href="https://www.tamu.edu/" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
 
@@ -18,16 +18,16 @@ const Education = () => {
           <ul className="custom-list">
             <li><h6 className="educationh6">👩🏻‍🎓 Department of Computer Science Scholarship 2023-2024</h6></li>
             <li><h6 className="educationh6">👩🏻‍🎓 Grace Hopper Celebration 2023 Scholarship</h6></li>
-            <li><h6 className="educationh6">👩🏻‍🎓 Artificial Intelligence, Deep Learning, Machine Learning</h6></li>
+            <li><h6 className="educationh6">👩🏻‍🎓 Artificial Intelligence, Deep Learning, Machine Learning, ML Based Cyber Defenses</h6></li>
             <li><h6 className="educationh6">👩🏻‍🎓 Analysis of Algorithms, Software Engineering, Software Reverse Engineering</h6></li>
-            <li><h6 className="educationh6">👩🏻‍🎓 Distributed Systems and Cloud Computing, Robotics and Spatial Intelligence, AI Robotics</h6></li>
-            <li><h6 className="educationh6">👩🏻‍🎓 GPA 3.67/4.0 </h6></li>
+            <li><h6 className="educationh6">👩🏻‍🎓 Distributed Systems and Cloud Computing, Robotics and Spatial Intelligence</h6></li>
+            <li><h6 className="educationh6">👩🏻‍🎓 GPA 3.89/4.0 </h6></li>
           </ul>
         </div>
 
       </div>
 
-      <div className="education">
+      <div className="education" id="education-2">
         <div className="education-logo">
           <a href="https://www.manit.ac.in/" target="_blank" rel="noreferrer"><img src={manitlogo} alt="MANIT Logo"></img></a>
         </div>

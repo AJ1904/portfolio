@@ -8,15 +8,55 @@ import saajlogo from '../assets/saaj_logo.png';
 import rotaractlogo from '../assets/rotaract_logo.jpeg';
 import helloworldlogo from '../assets/helloworld_logo.png';
 import valentine from '../assets/valentine.png';
+import conqueralllogo from '../assets/conquerall.png';
+import llmwsoundarelogo from '../assets/llmsoundware.png';
+import poemdlelogo from '../assets/poemdle.svg';
 
 const Projects = () => {
   return (
     
       <div className='leftalign'>
       
-<div className="projects">
-    <div className="project">
+      <div className="projects">
+    <div className="project" id="project-1"> 
+        <div className="education" >
+            <div className="education-logo">
+                <a href="https://join.rune.ai/game/DYoIVuI6-GQE" target="_blank" rel="noreferrer"><img src={conqueralllogo} alt="Conquer All Logo"></img></a>
+            </div>
+            <div className="education-text">
+                <h4>Conquer All on Rune</h4>
+                <h5>🛠️ React, Javascript, Rune, Artificial Intelligence</h5>
+                <ul className="custom-list">
+                    <li><h6 className="educationh6">👩🏻‍💻 Conquer All is a fun and simple multiplayer strategy game where you send armies to capture castles.</h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 Play against friends or challenge a tough AI that is hard to beat! </h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 This game is submitted in React Jam Spring 2024 on Rune platform.</h6></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div className="project" id="project-2">
         <div className="education">
+            <div className="education-logo">
+                <a href="https://github.com/AJ1904/llmsoundware" target="_blank" rel="noreferrer"><img src={llmwsoundarelogo} alt="LLMSoundWare Screen"></img></a>
+            </div>
+            <div className="education-text">
+                <h4>LLMSoundWare</h4>
+                <h5>🛠️ LLMWare, Streamlit, Python, Natural Language Processing, Large Language Model</h5>
+                <ul className="custom-list">
+                    <li><h6 className="educationh6">👩🏻‍💻 This project is a LLMWare + Streamlit web application that takes an audio file as input, transcribes it using LLMWare models, and performs various analyses on the transcription.</h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 The app provides insights into sentiment, named entities, topics, categories, intents, emotions, and summaries extracted from the audio content.</h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 Additionally, it features an interactive chatbot powered by the Dragon model from LLMWare, allowing users to ask questions about the audio and its analysis.</h6></li>
+
+                     
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div className="projects">
+    <div className="project" id="project-3"> 
+        <div className="education" >
             <div className="education-logo">
                 <a href="https://saajheaven.web.app/" target="_blank" rel="noreferrer"><img src={saajlogo} alt="SAAJ Heaven Logo"></img></a>
             </div>
@@ -30,28 +70,29 @@ const Projects = () => {
             </div>
         </div>
     </div>
-    <div className="project">
-        <div className="education">
+    <div className="project" id="project-4">
+    <div className="education">
             <div className="education-logo">
-                <a href="https://github.com/AJ1904/Sentiment-Analysis-Using-Transformers" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
+                <a href="https://github.com/AJ1904/Microsoft-Ignite-Azure-AI-Language" target="_blank" rel="noreferrer"><img src="https://github.com/AJ1904/Microsoft-Ignite-Azure-AI-Language/assets/49027490/4438e3a4-2f84-40c9-98cf-c0b12d2928cb" alt="Microsoft Ignite Logo"></img></a>
             </div>
             <div className="education-text">
-                <h4>Sentiment Analysis Using Transformers</h4>
-                <h5>🛠️ TensorFlow, PyTorch, Machine Learning, Python</h5>
+                <h4>Microsoft Ignite Azure AI Challenge</h4>
+                <h5>🛠️ Artificial Intelligence, Microsoft Azure</h5>
                 <ul className="custom-list">
-                    <li><h6 className="educationh6">👩🏻‍💻 This project is about exploring and implementing various machine learning models like CNN, RNN and Transformers for sentiment analysis based on the YELP text review and stars.</h6></li>
-                    <li><h6 className="educationh6">👩🏻‍💻 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/50879504/multiple-media-viewer?profileId=ACoAAB92TxMBv2ka7uTyeovNcno2w0r-QrjBL_0&treasuryMediaId=1635554415863&type=DOCUMENT&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3BycUMRUCJRimajiHbqP%2F%2FQw%3D%3D" target="_blank" rel="noreferrer">Report Link</a></h6></li>
-                    <li><h6 className="educationh6">👩🏻‍💻 Improved legacy code, thoroughly tested using rpsec testing tool and wrote cucumber tests to have 100% code coverage</h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 I successfully completed the Microsoft Ignite module on Azure AI Language, focusing on building natural language processing (NLP) solutions using Azure AI Language services.</h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 This challenge covered nine modules aligned with the assessment requirement of building a natural language processing solution with Azure AI Language.</h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 It was a valuable learning experience, contributing to my understanding of language models and their applications in real-world scenarios.</h6></li>
                 </ul>
             </div>
         </div>
+        
     </div>
 </div>
 
 
-
+<div id ="mlprojectsmultiple-1">
 <div className="projects">
-    <div className="project">
+    <div className="project" id="project-5">
         <div className="education">
             <div className="education-logo">
                 <a href="https://github.com/AJ1904/machine-translation-artificial-language" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
@@ -68,10 +109,10 @@ const Projects = () => {
             </div>
         </div>
     </div>
-    <div className="project">
+    <div className="project" id="project-6">
         <div className="education">
             <div className="education-logo">
-                <a href="https://github.com/FashioNXT/NXTFolio" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
+                <a href="https://github.com/AJ1904/noisy-mnist-classification-deep-learning" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
             </div>
             <div className="education-text">
                 <h4>Deep Learning Model on Noisy MNIST Handwritten Digits Dataset</h4>
@@ -87,9 +128,26 @@ const Projects = () => {
 
 
 
-<div className="projects">
-    <div className="project">
-        <div className="education">
+<div className="projects" >
+    <div className="project" id="project-7">
+    <div className="education">
+            <div className="education-logo">
+                <a href="https://github.com/AJ1904/Sentiment-Analysis-Using-Transformers" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
+            </div>
+            <div className="education-text">
+                <h4>Sentiment Analysis Using Transformers</h4>
+                <h5>🛠️ TensorFlow, PyTorch, Machine Learning, Python</h5>
+                <ul className="custom-list">
+                    <li><h6 className="educationh6">👩🏻‍💻 This project is about exploring and implementing various machine learning models like CNN, RNN and Transformers for sentiment analysis based on the YELP text review and stars.</h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/50879504/multiple-media-viewer?profileId=ACoAAB92TxMBv2ka7uTyeovNcno2w0r-QrjBL_0&treasuryMediaId=1635554415863&type=DOCUMENT&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_projects_details%3BycUMRUCJRimajiHbqP%2F%2FQw%3D%3D" target="_blank" rel="noreferrer">Report Link</a></h6></li>
+                    <li><h6 className="educationh6">👩🏻‍💻 Improved legacy code, thoroughly tested using rpsec testing tool and wrote cucumber tests to have 100% code coverage</h6></li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <div className="project" id="project-8">
+    <div className="education">
             <div className="education-logo">
                 <a href="https://github.com/AJ1904/machine-learning-from-scratch" target="_blank" rel="noreferrer"><img src={gitlogo} alt="Project Logo"></img></a>
             </div>
@@ -103,28 +161,12 @@ const Projects = () => {
             </div>
         </div>
     </div>
-    <div className="project">
-        <div className="education">
-            <div className="education-logo">
-                <a href="https://github.com/AJ1904/Microsoft-Ignite-Azure-AI-Language" target="_blank" rel="noreferrer"><img src="https://github.com/AJ1904/Microsoft-Ignite-Azure-AI-Language/assets/49027490/4438e3a4-2f84-40c9-98cf-c0b12d2928cb" alt="Microsoft Ignite Logo"></img></a>
-            </div>
-            <div className="education-text">
-                <h4>Microsoft Ignite Azure AI Challenge</h4>
-                <h5>🛠️ Artificial Intelligence, Microsoft Azure</h5>
-                <ul className="custom-list">
-                    <li><h6 className="educationh6">👩🏻‍💻 I successfully completed the Microsoft Ignite module on Azure AI Language, focusing on building natural language processing (NLP) solutions using Azure AI Language services.</h6></li>
-                    <li><h6 className="educationh6">👩🏻‍💻 This challenge covered nine modules aligned with the assessment requirement of building a natural language processing solution with Azure AI Language.</h6></li>
-                    <li><h6 className="educationh6">👩🏻‍💻 It was a valuable learning experience, contributing to my understanding of language models and their applications in real-world scenarios.</h6></li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </div>
 
 
 
 <div className="projects">
-    <div className="project">
+    <div className="project" id="project-9">
         <div className="education">
             <div className="education-logo">
                 <a href="https://www.linkedin.com/in/ayushrijain/#:~:text=to%20Detail%20%C2%B7%20Collaboration-,Machine%20Learning%20Engineer,-Machine%20Learning%20Engineer" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
@@ -139,7 +181,7 @@ const Projects = () => {
             </div>
         </div>
     </div>
-    <div className="project">
+    <div className="project" id="project-10">
         <div className="education">
             <div className="education-logo">
                 <a href="https://github.com/FashioNXT/NXTFolio" target="_blank" rel="noreferrer"><img src={tamulogo} alt="TAMU Logo"></img></a>
@@ -161,7 +203,7 @@ const Projects = () => {
 
 
 <div className="projects">
-    <div className="project">
+    <div className="project" id="project-11">
         <div className="education">
             <div className="education-logo">
                 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=and%20cucumber%20tests-,Major%20Project%20%3A%20%27Enhancing%20the%20Capability%20of%20Analytical%20Hierarchy%20Process%20using%20Fuzzy%20Logic%20embedded%20with%20Neural%20Networks%27,-Major%20Project%20%3A%20%27Enhancing" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
@@ -176,7 +218,7 @@ const Projects = () => {
             </div>
         </div>
     </div>
-    <div className="project">
+    <div className="project" id="project-12">
         <div className="education">
             <div className="education-logo">
                 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=Swachha%20Bharat%20Abhiyan%E2%80%9D.-,Minor%20Project%20%3A%20%27Text%20to%20Emoji%27,-Minor%20Project%20%3A%20%27Text" target="_blank" rel="noreferrer"><img src={manitlogo} alt="manit Logo"></img></a>
@@ -195,9 +237,9 @@ const Projects = () => {
 </div>
 
 
-
+</div>
 <div className="projects">
-    <div className="project">
+    <div className="project" id="project-13">
         <div className="education">
             <div className="education-logo">
                 <a href="https://www.linkedin.com/in/ayushrijain/details/projects/#:~:text=for%20training%20purpose.-,Software%20Engineering%20Project%20%3A%20%27Rotaract%20App%27,-Software%20Engineering%20Project" target="_blank" rel="noreferrer"><img src={rotaractlogo} alt="TAMU Logo"></img></a>
@@ -212,7 +254,7 @@ const Projects = () => {
             </div>
         </div>
     </div>
-    <div className="project">
+    <div className="project" id="project-14">
         <div className="education">
             <div className="education-logo">
                 <a href="https://github.com/AJ1904/Natural-Language-Processing" target="_blank" rel="noreferrer"><img src={gitlogo} alt="git Logo"></img></a>
@@ -230,9 +272,9 @@ const Projects = () => {
 </div>
 
 
-
+<div id ="mlprojectsmultiple-2">
 <div className="projects">
-    <div className="project">
+    <div className="project" id="project-15">
         <div className="education">
             <div className="education-logo">
                 <a href="https://github.com/AJ1904/portfolio" target="_blank" rel="noreferrer"><img src={logo} alt="Logo"></img></a>
@@ -250,8 +292,8 @@ const Projects = () => {
         </div>
     </div>
 
-    <div className="project">
-        <div className="education">
+    <div className="project" id="project-16">
+        <div className="education" >
             <div className="education-logo">
                 <a href="https://github.com/AJ1904/hello-world" target="_blank" rel="noreferrer"><img src={helloworldlogo} alt="Logo"></img></a>
             </div>
@@ -268,7 +310,7 @@ const Projects = () => {
 </div>
 
     <div className="projects">
-    <div className="project">
+    <div className="project" id="project-17">
         <div className="education">
             <div className="education-logo">
                 <a href="https://missionvalentine.netlify.app" target="_blank" rel="noreferrer"><img src={valentine} alt="Logo"></img></a>
@@ -285,6 +327,25 @@ const Projects = () => {
         </div>
     </div>
 
+    <div className="project" id="project-18">
+        <div className="education">
+            <div className="education-logo">
+                <a href="https://poemdle.netlify.app" target="_blank" rel="noreferrer"><img src={poemdlelogo} alt="Poemdle Logo"></img></a>
+            </div>
+            <div className="education-text">
+                <h4>Poemdle</h4>
+                <h5>🛠️ React, JavaScript, Cascading Style Sheets (CSS), Artificial Intelligence (AI)</h5>
+                <ul className="custom-list">
+                  <li><h6 className="educationh6">👩🏻‍💻 This project is an extension of Wordle and uses AI, MindsDB, Flagsmith and React.</h6></li>
+                  <li><h6 className="educationh6">👩🏻‍💻 Instead of guessing just one word, you unravel the mysteries of entire poems. Welcome to a new dimension of wordplay, where every guess is a step closer to unlocking the poet's heart.</h6></li>
+                  <li><h6 className="educationh6">👩🏻‍💻 Poemdle secured 4th position in <a href="https://quine.sh/quests/creator/submissions?questId=8" target="_blank" rel="noreferrer">Quine's Quest 008</a>.</h6></li>
+                </ul>
+
+                 
+            </div>
+        </div>
+    </div>
+    </div>
     
     
 </div>
