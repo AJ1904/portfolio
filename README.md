@@ -102,7 +102,7 @@ Update your information in the files of `src/components` folder.
 For more detailed instructions on using Create React App, React, Shepherd, and other dependencies, refer to their respective documentation:
 
 - [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- [React documentation](https://reactjs.org/docs/getting-started.html)
-- [Shepherd documentation](https://shepherdjs.dev/docs)
+- [React documentation](https://react.dev/)
+- [Shepherd documentation](https://github.com/shepherd-pro/shepherd)
 
 
