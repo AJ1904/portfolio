@@ -1,219 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import '../App.css';
-// import homegif from '../assets/homegif.gif';
-// import Contact from './Contact';
-// import Shepherd from 'shepherd.js';
-// import 'shepherd.js/dist/css/shepherd.css';
-// import { tourSteps } from './TourShepherd';
-
-// const Home = ({ setSelectedTab }) => {
-//   const [showDialog, setShowDialog] = useState(false);
-//   const [isPaused, setIsPaused] = useState(false);
-//   const [currentStepIndex, setCurrentStepIndex] = useState(0);
-//   const [isSpeaking, setIsSpeaking] = useState(false);
-//   const [synth] = useState(window.speechSynthesis);
-
-//   const handlePause = () => {
-//     setIsPaused(true);
-//     synth.cancel();
-//   };
-
-//   const handleResume = () => {
-//     setIsPaused(false);
-//     startAutomatedTour();
-//   };
-
-//   const createTour = (type) => {
-//     const tour = new Shepherd.Tour({
-//       useModalOverlay: true,
-//       defaultStepOptions: {
-//         scrollTo: true,
-//         cancelIcon: {
-//           //enabled: true
-//           enabled: false
-//         }
-//       }
-//     });
-
-//     tourSteps.forEach(step => {
-//       //console.log(`Step ID: ${step.id}, Selected Tab: ${step.selectedTab}`);
-//       const buttons = step[`buttons${type}`].map(btn => {
-//        // console.log(`Button: ${btn}`);
-//         if (btn === 'end') {
-//           return { text: 'End', 
-//             action: () => {
-//               if (synth.speaking) {
-//                 synth.cancel();
-//               }
-//               tour.complete();
-//           }};
-//         } else if (btn === 'pause') {
-//           return { text: 'Pause', action: handlePause };
-//         } else if (btn === 'next') {
-//           return { 
-//             text: 'Next', 
-//             action: () => {
-//              // console.log('Next button clicked');
-//               if (step.selectedTab && step.selectedTab !== '') {
-//                 console.log(`Setting selectedTab to: ${step.selectedTab}`);
-//                 setSelectedTab(step.selectedTab);
-//               } else {
-//                 console.log('No selectedTab for this step.');
-//               }
-//               tour.next();
-//             }
-//           };
-//         } else if (btn === 'back') {
-//           return { text: 'Back', action: tour.back };
-//         }
-//       });
-
-//      // console.log('Buttons:', buttons);
-//       const stepOptions = {
-//         id: step.id,
-//         attachTo: step.attachTo,
-//         buttons,
-//         text: step[`text${type}`],
-//       };
-
-//       tour.addStep(stepOptions);
-//     });
-
-//     return tour;
-//   };
-
-//   const normalTour = createTour('Normal');
-//   // const voiceTour = createTour('Voice');
-//   const automatedTour = createTour('Automated');
-
-//   useEffect(() => {
-//     const sections = document.querySelectorAll('.section');
-
-//     const revealSection = () => {
-//       sections.forEach((section) => {
-//         if (window.scrollY + window.innerHeight > section.offsetTop) {
-//           section.classList.add('show');
-//         }
-//       });
-//     };
-
-//     window.addEventListener('scroll', revealSection);
-//     return () => window.removeEventListener('scroll', revealSection);
-//   }, []);
-
-//   function speak(text, onEnd) {
-//     if (typeof synth === "undefined" || !text) {
-//       return;
-//     }
-//     setIsSpeaking(true);
-//     const utterance = new SpeechSynthesisUtterance(text);
-//     const voices = synth.getVoices();
-//     const googleVoice = voices.find(voice => voice.name === "Google US English" && voice.lang === "en-US");
-//     if (googleVoice) {
-//       utterance.voice = googleVoice;
-//     }
-//     utterance.onend = () => {
-//       setIsSpeaking(false);
-//       if (onEnd) onEnd();
-//     };
-//     synth.speak(utterance);
-//   }
-
-//   // const handleInteractClick = () => {
-//   //   setShowDialog(true);
-//   // };
-
-//   const handleNormalInteraction = () => {
-//     setShowDialog(false);
-//     normalTour.start();
-//   };
-
-//   const handleAutomatedTour = () => {
-//     // setShowDialog(false);
-//     startAutomatedTour();
-//   };
-
-//   const startAutomatedTour = () => {
-//     let stepIndex = currentStepIndex;
-//     const nextStep = () => {
-//       if (stepIndex < tourSteps.length && !isPaused) {
-//         automatedTour.show(stepIndex);
-        
-//         const stepText = tourSteps[stepIndex].textAutomated;
-        
-//         speak(stepText, () => {
-//           console.log(`Current Step Index: ${stepIndex}`);
-//           if (tourSteps[stepIndex]?.selectedTab && tourSteps[stepIndex].selectedTab !== '') {
-//             console.log(`Setting selectedTab to: ${tourSteps[stepIndex].selectedTab}`);
-//             setSelectedTab(tourSteps[stepIndex].selectedTab);
-//           }
-//            else {
-//             console.log('No selectedTab for this step.');
-//           }
-//           stepIndex = stepIndex + 1;
-//         if (stepIndex < tourSteps.length) {
-//           setTimeout(nextStep, 500); // Wait for 0.5 seconds before showing the next step
-//         } else {
-//           automatedTour.complete();
-//         }
-//       });
-//       }
-//     };
-//     nextStep();
-//   };
-
-//   return (
-//     <>
-//       <section>
-//         <div className="homecontainer">
-//           <br />
-//           <h1>Hey! :D</h1>
-//           <h2>I am <span className="homename">Ayushri Jain</span>.</h2>
-
-//           <div className="homecontent">
-//             <div className="homeimage-container">
-//               <img className="homegif-image" src={homegif} alt="Home GIF" />
-//             </div>
-//             <div className="homecontent">
-//               {/* <button className="interact-button" onClick={handleInteractClick}>Interact with me</button> */}
-              
-//               <button className="interact-button" onClick={handleAutomatedTour}>Hear me out!</button>
-//             </div>
-//           </div>
-
-//           <h4 className="homeh5">Always learning and exploring the intersections of technology and innovation.</h4>
-//           <h4 className="homeh5">Passionate about simplifying, automating, and optimizing pipelines, cloud applications, machine learning models, and software.</h4>
-//           <h4 className="homeh5">Developing unique and simplistic applications in creative ways.</h4>
-//         </div>
-//       </section>
-//       <section><Contact /></section>
-
-//       {showDialog && (
-//         <div className="dialog">
-//           <div className="dialog-content">
-//             <h3>Choose Interaction Mode</h3>
-//             <button onClick={handleNormalInteraction}>Normal Interaction</button>
-//             {/* <button onClick={handleVoiceInteraction}>Voice Interaction</button> */}
-//             <button onClick={handleAutomatedTour}>Automated Tour</button>
-//           </div>
-//         </div>
-//       )}
-
-//       {automatedTour.isActive() && (
-//         <div className="tour-controls">
-//           {isPaused ? (
-//             <button onClick={handleResume}>Resume Tour</button>
-//           ) : (
-//             <button onClick={handlePause}>Pause Tour</button>
-//           )}
-//         </div>
-//       )}
-//     </>
-//   );
-// };
-
-// export default Home;
-
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import homegif from '../assets/homegif.gif';
@@ -222,6 +6,7 @@ import Shepherd from 'shepherd.js';
 import 'shepherd.js/dist/css/shepherd.css';
 import { tourSteps } from './TourShepherd';
 // Import all the audio files
+import audio0 from '../audios/0.m4a';
 import audio1 from '../audios/1.m4a';
 import audio2 from '../audios/2.m4a';
 import audio3 from '../audios/3.m4a';
@@ -254,6 +39,7 @@ import audio28 from '../audios/28.m4a';
 
 // Map audio indices to their respective audio files
 const audioMap = {
+  0: audio0,
   1: audio1,
   2: audio2,
   3: audio3,
@@ -290,18 +76,28 @@ const Home = ({ setSelectedTab }) => {
   // const [showDialog, setShowDialog] = useState(false);
   const [isPaused, setIsPaused] = useState(false);
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
-  const [isSpeaking, setIsSpeaking] = useState(false);
+  const [currentAudio, setCurrentAudio] = useState(null);
   const [synth] = useState(window.speechSynthesis);
+  const [isTourActive, setIsTourActive] = useState(false); // New state to track tour status
 
-  const handlePause = () => {
-    setIsPaused(true);
-    synth.cancel();
+
+  // Function to stop any currently playing audio
+  const stopAudio = () => {
+    if (currentAudio) {
+      currentAudio.pause();
+      setCurrentAudio(null);
+    }
+    if (synth.speaking) {
+      synth.cancel();
+   }
+    setIsTourActive(false); // Set tour status to inactive
   };
 
-  const handleResume = () => {
-    setIsPaused(false);
-    startAutomatedTour();
-  };
+  useEffect(() => {
+    if (!isTourActive) {
+      stopAudio(); // Automatically stop audio when tour is inactive
+    }
+  }, [isTourActive]);
 
   const createTour = (type) => {
     const tour = new Shepherd.Tour({
@@ -309,7 +105,7 @@ const Home = ({ setSelectedTab }) => {
       defaultStepOptions: {
         scrollTo: true,
         cancelIcon: {
-          enabled: false
+          enabled: true
         },
         classes: 'shepherd-theme-custom'
       }
@@ -318,14 +114,20 @@ const Home = ({ setSelectedTab }) => {
     tourSteps.forEach(step => {
       const buttons = step[`buttons${type}`].map(btn => {
         if (btn === 'end') {
-          return { text: 'End', action: () => {
-            if (synth.speaking) {
-              synth.cancel();
-            }
-            tour.complete();
-          }};
-        } else if (btn === 'pause') {
-          return { text: 'Pause', action: handlePause };
+          // return { text: 'End', action: () => {
+          //   if (synth.speaking) {
+          //     synth.cancel();
+          //   }
+          //   tour.complete();
+          // }};
+          return {
+            text: 'End',
+            action: () => {
+              stopAudio(); // Stop audio when the tour is canceled
+              tour.complete();
+            },
+          };
+        
         } else if (btn === 'next') {
           return { text: 'Next', action: () => {
             if (step.selectedTab && step.selectedTab !== '') {
@@ -348,11 +150,37 @@ const Home = ({ setSelectedTab }) => {
       tour.addStep(stepOptions);
     });
 
+
+    tour.on('cancel', () => {
+      console.log('Tour cancelled');
+      setIsTourActive(false);
+      stopAudio();
+    });
+
+    tour.on('complete', () => {
+      setIsTourActive(false); // Set tour status to inactive when tour is complete
+      stopAudio();
+    });
+
     return tour;
   };
 
   // const normalTour = createTour('Normal');
   const automatedTour = createTour('Automated');
+
+    // Handle ESC key press to cancel the tour
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        stopAudio(); // Stop audio on ESC press
+        automatedTour.cancel(); // Cancel the tour on ESC
+        setIsTourActive(false);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [automatedTour, currentAudio, synth]);
 
   useEffect(() => {
     const sections = document.querySelectorAll('.section');
@@ -369,100 +197,63 @@ const Home = ({ setSelectedTab }) => {
     return () => window.removeEventListener('scroll', revealSection);
   }, []);
 
-  function playAudioOrSpeak(text, audioIndex, onEnd) {
-    let audioFile = null;
-    if (audioIndex){
-    audioFile = audioMap[audioIndex] ? new Audio(audioMap[audioIndex]) : null;
-  }
-    
-if (audioFile) {
-    audioFile.oncanplaythrough = () => {
-      audioFile.play();
-    };
-    audioFile.onended = () => {
-      if (onEnd) onEnd();
-    };
-  }
-  else {
-      if (typeof synth === "undefined" || !text) {
-        return;
-      }
-      setIsSpeaking(true);
-      const utterance = new SpeechSynthesisUtterance(text);
-      const voices = synth.getVoices();
-      const googleVoice = voices.find(voice => voice.name === "Google US English" && voice.lang === "en-US");
-      if (googleVoice) {
-        utterance.voice = googleVoice;
-      }
-      utterance.onend = () => {
-        setIsSpeaking(false);
-        if (onEnd) onEnd();
-      };
-      synth.speak(utterance);
-  }
-    
-  }
 
+// Function to play audio or speak text
+function playAudioOrSpeak(text, audioIndex, onEnd) {
+  const audioFile = audioMap[audioIndex] ? new Audio(audioMap[audioIndex]) : null;
+
+  if (audioFile) {
+    setCurrentAudio(audioFile); // Track the current audio
+    audioFile.oncanplaythrough = () => audioFile.play();
+    audioFile.onended = onEnd;
+  } else if (synth && text) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    const voices = synth.getVoices();
+    const googleVoice = voices.find(
+      (voice) => voice.name === 'Google US English' && voice.lang === 'en-US'
+    );
+    if (googleVoice) utterance.voice = googleVoice;
+
+    utterance.onend = onEnd;
+    synth.speak(utterance);
+  }
+}
 
   const handleAutomatedTour = () => {
     startAutomatedTour();
   };
 
-  // const startAutomatedTour = () => {
-  //   let stepIndex = currentStepIndex;
-  //   const nextStep = () => {
-  //     if (stepIndex < tourSteps.length && !isPaused) {
-  //       automatedTour.show(stepIndex);
-        
-  //       const stepText = tourSteps[stepIndex].textAutomated;
-  //       const audioIndex = tourSteps[stepIndex].audioIndex; // Assuming `audioIndex` is part of `tourSteps`
-        
-  //       playAudioOrSpeak(stepText, audioIndex, () => {
-  //         if (tourSteps[stepIndex]?.selectedTab && tourSteps[stepIndex].selectedTab !== '') {
-  //           setSelectedTab(tourSteps[stepIndex].selectedTab);
-  //         }
-  //         stepIndex = stepIndex + 1;
-  //         if (stepIndex < tourSteps.length) {
-  //           setTimeout(nextStep, 10); // Wait for 0.01 seconds before showing the next step
-  //         } else {
-  //           automatedTour.complete();
-  //         }
-  //       });
-  //     }
-  //   };
-  //   nextStep();
-  // };
-
+  // Start the automated tour
   const startAutomatedTour = () => {
+    setIsTourActive(true); // Set tour status to active
     let stepIndex = currentStepIndex;
     const nextStep = () => {
       if (stepIndex < tourSteps.length && !isPaused) {
         const step = tourSteps[stepIndex];
         const nextStepText = step.textAutomated;
         const audioIndex = step.audioIndex;
-  
+
         const showNextStep = () => {
           automatedTour.show(stepIndex);
-  
+
           playAudioOrSpeak(nextStepText, audioIndex, () => {
             stepIndex++;
-  
+
             if (step.selectedTab && step.selectedTab !== '') {
               setSelectedTab(step.selectedTab);
             }
-  
+
             if (stepIndex < tourSteps.length) {
-              setTimeout(nextStep, 10); // Wait for 0.01 seconds before showing the next step
+              setTimeout(nextStep, 10);
             } else {
               automatedTour.complete();
             }
           });
         };
-  
-        // Check if the next step requires a tab change
+
         if (step.selectedTab && step.selectedTab !== '') {
           setSelectedTab(step.selectedTab);
-          setTimeout(showNextStep, 10); // Wait for tab change before showing the next step
+          setTimeout(showNextStep, 10);
         } else {
           showNextStep();
         }
@@ -476,10 +267,11 @@ if (audioFile) {
       <section>
         <div className="homecontainer">
           <br />
+          <div className="homecontent">
           <h1>Hey! :D</h1>
           <h2>I am <span className="homename">Ayushri Jain</span>.</h2>
 
-          <div className="homecontent">
+          
             <div className="homeimage-container">
               <img className="homegif-image" src={homegif} alt="Home GIF" />
             </div>
@@ -487,23 +279,15 @@ if (audioFile) {
               <button className="interact-button" onClick={handleAutomatedTour}>Hear me out!</button>
             </div>
           </div>
-
+          <div className="taglines">
           <h4 className="homeh5">Always learning and exploring the intersections of technology and innovation.</h4>
           <h4 className="homeh5">Passionate about simplifying, automating, and optimizing pipelines, cloud applications, machine learning models, and software.</h4>
           <h4 className="homeh5">Developing unique and simplistic applications in creative ways.</h4>
+          </div>
         </div>
       </section>
       <section><Contact /></section>
 
-      {automatedTour.isActive() && (
-        <div className="tour-controls">
-          {isPaused ? (
-            <button onClick={handleResume}>Resume Tour</button>
-          ) : (
-            <button onClick={handlePause}>Pause Tour</button>
-          )}
-        </div>
-      )}
     </>
   );
 };

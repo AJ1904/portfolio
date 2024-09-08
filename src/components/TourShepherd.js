@@ -1,12 +1,28 @@
 export const tourSteps = [
   {
-    id: 1,
+    id: 0,
     textVoice: 'Hello, I am Ayushri. Glad that you are interested in knowing more about my qualifications and interests. You can use voice commands like Next, Back, Okay, and Quit to continue.',
     textAutomated: 'Hello, I am Ayushri. Glad that you are interested in knowing more about my qualifications and interests.',
     textNormal: 'Hello, I am Ayushri. Glad that you are interested in knowing more about my qualifications and interests. Please continue using the buttons.',
     attachTo: {
       element: '.homecontent',
       on: 'left'
+    },
+    buttonsNormal: ["next","end"],
+    buttonsVoice: ["next","end"],
+    buttonsAutomated:[],
+    selectedTab: 'home',
+    audioIndex: 0
+      
+  },
+  {
+    id: 1,
+    textVoice: 'Developing, automating and optimizing data pipelines, machine learning models, software and cloud applications.',
+    textAutomated: 'Developing, automating and optimizing data pipelines, machine learning models, software and cloud applications.',
+    textNormal: 'Developing, automating and optimizing data pipelines, machine learning models, software and cloud applications.',
+    attachTo: {
+      element: '.taglines',
+      on: 'bottom'
     },
     buttonsNormal: ["next","end"],
     buttonsVoice: ["next","end"],
